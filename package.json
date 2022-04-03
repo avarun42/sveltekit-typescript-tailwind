@@ -6,6 +6,7 @@
 		"build": "svelte-kit build",
 		"package": "svelte-kit package",
 		"preview": "svelte-kit preview",
+		"prepare": "svelte-kit sync",
 		"test": "playwright test",
 		"check": "svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
@@ -18,7 +19,7 @@
 		"cookie": "^0.4.1"
 	},
 	"devDependencies": {
-		"@playwright/test": "^1.19.1",
+		"@playwright/test": "next",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"@types/cookie": "^0.4.1",
@@ -33,7 +34,7 @@
 		"svelte-check": "^2.2.6",
 		"svelte-preprocess": "^4.10.1",
 		"tslib": "^2.3.1",
-		"typescript": "~4.5.4",
+		"typescript": "~4.6.2",
 		"postcss": "^8.4.5",
 		"postcss-load-config": "^3.1.1",
 		"autoprefixer": "^10.4.2",
